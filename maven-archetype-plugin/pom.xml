@@ -26,7 +26,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven.archetype</groupId>
     <artifactId>maven-archetype</artifactId>
-    <version>2.0</version>
+    <version>2.0-p1-SNAPSHOT</version>
   </parent>
 
   <!--
@@ -48,6 +48,10 @@ under the License.
     <dependency>
       <groupId>org.apache.maven.archetype</groupId>
       <artifactId>archetype-common</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.archetype</groupId>
+      <artifactId>archetype-scripting</artifactId>
     </dependency>
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
